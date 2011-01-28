@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+
+<install version="1.5" type="plugin" group="content">
+    <name>Article Rating</name>
+    <creationDate>November 2009</creationDate>
+    <copyright>Copyright (C) 2009 Gareth Flowers. All rights reserved</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <author>Gareth Flowers</author>
+    <authorEmail>info@garethflowers.com</authorEmail>
+    <authorUrl>http://garethflowers.com/</authorUrl>
+    <version>1.0</version>
+    <description>Add a predefined rating to an article. Syntax: {rating}NUMBER{/rating}</description>
+    <files>
+        <filename>articlerating.xml</filename>
+        <filename plugin="articlerating">articlerating.php</filename>
+        <folder>articlerating</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_content_articlerating.ini</language>
+    </languages>
+    <params>
+        <param type="spacer" default="&lt;strong&gt;Rating Options&lt;/strong&gt;" />
+        <param name="outof" type="text" size="10" default="5" label="Rating Out Of" description="Rating is out of" />
+        <param type="spacer" default="" label="" description="" />
+        <param type="spacer" default="&lt;strong&gt;Display Options&lt;/strong&gt;" />
+        <param name="beforetext" type="text" size="70" default="Rating : " label="Before Content" description="Content to display before the rating" />
+        <param name="aftertext" type="text" size="70" default="" label="After Content" description="Content to display after the rating" />
+        <param name="show" type="radio" default="0" label="Ratings Type" description="Displays either a text and/or image version of the rating">
+            <option value="0">Both</option>
+            <option value="1">Image Only</option>
+            <option value="2">Text Only</option>
+        </param>
+        <param name="imagetextorder" type="radio" default="1" label="Display Order" description="Display the Image or Text version of the rating first">
+            <option value="1">Image First</option>
+            <option value="0">Text First</option>
+        </param>
+        <param type="spacer" default="" label="" description="" />
+        <param type="spacer" default="&lt;strong&gt;Image Options&lt;/strong&gt;" />
+        <param name="imageset" type="radio" default="star" label="Image Set" description="Image Set to use when images are enabled">
+            <option value="star">Stars</option>
+            <option value="heart">Hearts</option>
+            <option value="tick">Ticks</option>
+            <option value="custom">Custom</option>
+        </param>
+        <param name="imagecustom" type="text" size="70" default="" label="Custom Image URL" description="A url to a custom image to use for the image (requires the 'custom' Image Set to be selected)" />
+        <param name="imagecustomhalf" type="text" size="70" default="" label="Custom Half Image URL" description="A url to a custom image to use for the half image (requires the 'custom' Image Set to be selected)" />
+    </params>
+</install>

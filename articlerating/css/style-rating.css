@@ -1,0 +1,30 @@
+span#articlerating {
+    margin: 1em;
+    vertical-align: middle;
+    display: inline;
+    font-size: 1.1em;
+}
+
+span#articlerating img {
+    margin: .1em;
+    vertical-align: middle;
+    display: inline;
+}
+
+span#articlerating-img {
+    margin: 0 .2em;
+}
+
+span#articlerating-text {
+    font-weight: bold;
+    margin: 0 .2em;
+}
+
+span#articlerating-before {
+    margin-right: .2em;
+
+}
+
+span#articlerating-after {
+    margin-left: .2em;
+}
