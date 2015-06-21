@@ -1,0 +1,15 @@
+# ----------------------- #
+# Site
+# ----------------------- #
+
+title: Bare Bones
+author: Gareth Flowers
+
+# ----------------------- #
+# Jekyll
+# ----------------------- #
+
+markdown: redcarpet
+exclude:  [ Gemfile, Gemfile.lock, README.md, vendor/ ]
+gems:
+  - jekyll-sitemap
