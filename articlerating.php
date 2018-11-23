@@ -8,7 +8,7 @@
  * @subpackage Plugins
  * @Copyright (C) 2009 Gareth Flowers. All rights reserved.
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @author Gareth Flowers (info@garethflowers.com)
+ * @author Gareth Flowers
  * @link http://garethflowers.com/joomlaarticlerating/
  */
 
