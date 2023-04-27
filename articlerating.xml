@@ -6,8 +6,7 @@
     <copyright>Copyright (C) 2009 Gareth Flowers. All rights reserved</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <author>Gareth Flowers</author>
-    <authorEmail>info@garethflowers.com</authorEmail>
-    <authorUrl>http://garethflowers.com/</authorUrl>
+    <authorUrl>https://garethflowers.dev/</authorUrl>
     <version>1.0</version>
     <description>Add a predefined rating to an article. Syntax: {rating}NUMBER{/rating}</description>
     <files>

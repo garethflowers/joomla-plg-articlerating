@@ -9,7 +9,7 @@
  * @Copyright (C) 2009 Gareth Flowers. All rights reserved.
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  * @author Gareth Flowers
- * @link http://garethflowers.com/joomlaarticlerating/
+ * @link https://garethflowers.dev/joomla-plg-articlerating/
  */
 
 defined( '_JEXEC' ) or exit( 'Restricted access' );
